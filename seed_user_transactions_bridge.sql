@@ -1,0 +1,13 @@
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 1, 50000);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 1, 1500000);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 2, 3370);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 4, 2860);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 6, 1000000);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 7, 100000);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 8, 900000);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 9, 1500000);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 2, 4160);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 4, 2950);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 3, 3800);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 5, 3880);
+insert into user_transactions_bridge (user_id, transaction_id, amount) VALUES (1, 10, 9690);

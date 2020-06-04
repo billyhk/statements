@@ -1,0 +1,10 @@
+insert into transactions (transaction_type, property) VALUES ('issue_common_stock', 'capital');
+insert into transactions (transaction_type, property) VALUES ('salary_and_employment_expenses', 'salary_paid_general_and_administrative');
+insert into transactions (transaction_type, property) VALUES ('salary_and_employment_expenses', 'salary_paid_sales_and_marketing');
+insert into transactions (transaction_type, property) VALUES ('salary_and_employment_expenses', 'employment_expenses_accrued_general_and_administrative');
+insert into transactions (transaction_type, property) VALUES ('salary_and_employment_expenses', 'employment_expenses_accrued_sales_and_marketing');
+insert into transactions (transaction_type, property) VALUES ('borrow', 'loan_amount');
+insert into transactions (transaction_type, property) VALUES ('borrow', 'current_debt');
+insert into transactions (transaction_type, property) VALUES ('borrow', 'long_term_debt');
+insert into transactions (transaction_type, property) VALUES ('purchase_ppe', 'cost_of_ppe');
+insert into transactions (transaction_type, property) VALUES ('pay_employment_expenses', 'employment_expenses_paid');
