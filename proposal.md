@@ -13,13 +13,13 @@ Managing finances for a small business can be daunting and expensive. This app s
 
 ## User Stories
 
-_**MVP User Stories**_ 
+_**MVP User Stories**_  
 -_As a user, I want to record all of my business' transactions.  
 -_As a user, I want to be prompted for the required data for each transaction type._  
 -_As a user, I want to generate a balance sheet that considers all transactions during a year's time._  
 -_As a user, I want to securely save my financial records so that I may access them when I log in._  
 
-_**Post MVP Stretch Goals**_ 
+_**Post MVP Stretch Goals**_  
 -_As a user, I want to record 30+ different types of transactions._  
 -_As a user, I want to retrieve a balance sheet for any period of time (monthly, quarterly, annually, all-time)._  
 -_As a user, I want my investments and long-term debt to automatically rollover into the next calendar year._  
