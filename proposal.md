@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Managing finances for a small business can be a daunting and expensive process. This app streamlines the process of generating a balance sheet that presents the financial picture of your enterprise.
+Managing finances for a small business can be daunting and expensive. This app streamlines the process of generating a balance sheet, which presents the financial picture of your enterprise.
 
 ## Wireframes
 ![Home Page](/readme-images/png/home-page-wireframe-png.png)
