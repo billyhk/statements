@@ -1,6 +1,49 @@
-\*\* NEW ISSUE COMMON STOCK
+## GET TRANSACTION TYPES
 
-api/transaction/new
+GET api/transaction/types
+
+```
+{
+  "issue_common_stock": {
+    "transactionDate": "date",
+    "accountingDate": "date",
+    "capital": "number",
+    "description": "text"
+  },
+  "salary_and_employment_expenses": {
+    "transactionDate": "date",
+    "accountingDate": "date",
+    "salary_paid_general_and_administrative": "number",
+    "employment_expenses_accrued_general_and_administrative": "number",
+    "salary_paid_sales_and_marketing": "number",
+    "employment_expenses_accrued_sales_and_marketing": "number",
+    "description": "text"
+  },
+  "borrow": {
+    "transactionDate": "date",
+    "accountingDate": "date",
+    "loan_amount": "number",
+    "current_debt": "number",
+    "long_term_debt": "number",
+    "description": "text"
+  },
+  "purchase_ppe": {
+    "transactionDate": "date",
+    "accountingDate": "date",
+    "cost_of_ppe": "number",
+    "description": "text"
+  },
+  "purchase_ppe": {
+    "transactionDate": "date",
+    "accountingDate": "date",
+    "accrued_expenses_paid": "number",
+    "description": "text"
+  }
+```
+
+## NEW ISSUE COMMON STOCK
+
+POST api/transaction/new
 
 ```
 {
@@ -13,9 +56,9 @@ api/transaction/new
 }
 ```
 
-\*\* NEW SALARY AND EMPLOYMENT EXPENSES
+## NEW SALARY AND EMPLOYMENT EXPENSES
 
-api/transaction/new
+POST api/transaction/new
 
 ```
 {
@@ -31,9 +74,9 @@ api/transaction/new
 }
 ```
 
-\*\* NEW BORROW (take out loan)
+## NEW BORROW (take out loan)
 
-api/transaction/new
+POST api/transaction/new
 
 ```
 {
@@ -48,9 +91,9 @@ api/transaction/new
 }
 ```
 
-\*\* NEW PURCHASE PPE (plant property & equipment)
+## NEW PURCHASE PPE (plant property & equipment)
 
-api/transaction/new
+POST api/transaction/new
 
 ```
 {
@@ -63,9 +106,9 @@ api/transaction/new
 }
 ```
 
-\*\* NEW PAY ACCRUED EXPENSES
+## NEW PAY ACCRUED EXPENSES
 
-api/transaction/new
+POST api/transaction/new
 
 ```
 {
@@ -78,9 +121,9 @@ api/transaction/new
 }
 ```
 
-\*\* RETRIEVE INCOME STATEMENT
+## RETRIEVE INCOME STATEMENT
 
-api/statement/income_statement?start=20200101&end=20200601 (dates inclusive)
+GET api/statement/income_statement?start=20200101&end=20200601 (dates inclusive)
 
 ```
 {
@@ -94,9 +137,9 @@ api/statement/income_statement?start=20200101&end=20200601 (dates inclusive)
 }
 ```
 
-\*\* RETRIEVE CASH FLOW STATEMENT
+## RETRIEVE CASH FLOW STATEMENT
 
-api/statement/cash_flow_statement?start=20200101&end=20200601 (dates inclusive)
+GET api/statement/cash_flow_statement?start=20200101&end=20200601 (dates inclusive)
 
 ```
 {
@@ -109,9 +152,9 @@ api/statement/cash_flow_statement?start=20200101&end=20200601 (dates inclusive)
 }
 ```
 
-\*\* RETRIEVE BALANCE SHEET
+## RETRIEVE BALANCE SHEET
 
-api/statement/balance_sheet?start=20200101&end=20200601 (dates inclusive)
+GET api/statement/balance_sheet?start=20200101&end=20200601 (dates inclusive)
 
 ```
 {
