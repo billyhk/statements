@@ -33,7 +33,7 @@ GET api/transaction/types
     "cost_of_ppe": "number",
     "description": "text"
   },
-  "purchase_ppe": {
+  "pay_accrued_expenses": {
     "transactionDate": "date",
     "accountingDate": "date",
     "accrued_expenses_paid": "number",
@@ -112,7 +112,7 @@ POST api/transaction/new
 
 ```
 {
-  "purchase_ppe": {
+  "pay_accrued_expenses": {
     "transactionDate": "05/15/2020",
     "accountingDate": "05/01/2020",
     "accrued_expenses_paid": 9690,
