@@ -14,7 +14,7 @@ Managing finances for a small business can be daunting and expensive. This app s
 ## User Stories
 
 _**MVP User Stories**_  
--_As a user, I want to record all of my business' transactions.  
+-_As a user, I want to record all of my business' transactions._  
 -_As a user, I want to be prompted for the required data for each transaction type._  
 -_As a user, I want to generate a balance sheet that considers all transactions during a year's time._  
 -_As a user, I want to securely save my financial records so that I may access them when I log in._  
